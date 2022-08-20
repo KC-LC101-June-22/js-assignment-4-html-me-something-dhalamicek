@@ -1,11 +1,18 @@
-
-h1 {color:darkblue;font-size: 48px; text-align: center;border-style: solid;}
-h2 {color:darkslategray; font-size: 24px;border-style: ridge;}
+body {
+    color-scheme: #006666;
+    margin: 8px;
+    display: block;
+}
+#mainHeading {
+    color: red;
+}
+h1 {font-size: 48px; text-align: center;border-style: solid;}
+h2 {font-size: 24px;border-style: ridge;background-color:#006666; color:white}
 h3 {
-    color-scheme: #006666; font-size: 18px;
+     font-size: 18px;
      font-style: italic;
-    }
-p {
+     }
+p { 
     margin: 25px, 50px, 75px;
     padding: 25px, 50px, 75px;
     color: black;
@@ -13,8 +20,13 @@ p {
     font-family: Helvetica, Ariel, sans-serif;
     font-size: 14px;
 }
-
-#metroraces {
+#testP.funParagraph{
+    color: green;
+}
+#metroRaces {
     background-color: #006666;
     color: white;
+}
+ul {
+    color:#006666
 }
