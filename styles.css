@@ -1,1 +1,29 @@
-/* Write your CSS here! */
+body {
+    color-scheme: #006666;
+    margin: 8px;
+    display: block;
+}
+#mainHeading {
+    color: red;
+}
+h1 {font-size: 48px; text-align: center;border-style: solid;}
+h2 {font-size: 24px;border-style: ridge;background-color:#006666; color:white}
+h3 {
+     font-size: 18px;
+     font-style: italic;
+     }
+p { 
+    margin: 25px, 50px, 75px;
+    padding: 25px, 50px, 75px;
+    color: black;
+    text-align: left;
+    font-family: Helvetica, Ariel, sans-serif;
+    font-size: 14px;
+}
+#testP.funParagraph{
+    color: green;
+}
+    
+ul {
+    color:#006666
+}
